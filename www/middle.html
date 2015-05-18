@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		/*
+		 * In the popup's scripts, running on <http://example.org>:
+		 */
+		// Called sometime after postMessage is called
+		function receiveMessage(event){
+			window.localStorage.setItem('data',event.data);
+		  	// event.source.postMessage("hi there yourself!  the secret response " +
+		   //                         "is: rheeeeet!",
+		   //                         event.origin);
+		}
+		window.addEventListener("message", receiveMessage, false);
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "copy",
+  "version": "1.0.0",
+  "description": "copy bookmaklet tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TVVT/copy.git"
+  },
+  "author": "wov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TVVT/copy/issues"
+  },
+  "homepage": "https://github.com/TVVT/copy",
+  "dependencies": {
+    "express": "^4.12.4",
+    "jade": "^1.9.2"
+  }
+}
